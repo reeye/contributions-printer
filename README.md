@@ -34,3 +34,9 @@ You can use an existing repository, but you really sould not.
 
 ## HowTo undo
 Delete the repository, in our exampel "paper" from your account as described [here](https://help.github.com/articles/deleting-a-repository/). 
+
+## Similar Projects
+You might find additional information and images there:
+
+[gelstudios/gitfiti](https://github.com/gelstudios/gitfiti)
+[Hacking GitHub Contributions Calendar](http://bd808.com/blog/2013/04/17/hacking-github-contributions-graph/)
