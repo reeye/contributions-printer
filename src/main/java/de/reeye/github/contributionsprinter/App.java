@@ -17,7 +17,7 @@ public class App {
 	 * Image to print. Must be 7 pixel high and have at most 5 differently
 	 * bright colors (hint: just use grey scale). See images for examples.
 	 **/
-	static File printImange = new File("images/iliketurtles.png");
+	static File printImange = new File("images/turtle.png");
 
 	/**
 	 * Use your user an email as configured in github, or else it will not appear.
@@ -36,16 +36,17 @@ public class App {
 	 * Use exactly one year ago if you want the full 52 pixel width. Use today
 	 * if you want an image to appear like a really slow live ticker.
 	 */
-	static String startDateString = "2014-03-08";
+	static String startDateString = "2014-06-01";
 
 	/**
 	 * Commits used to produces colors. Example: {4,3,2,1,0} => 4 commits for
 	 * darkest green, 0 for white. If you have many commits already, you need
 	 * higher numbers go get the colors you want, and to make the existing
 	 * pattern less dominant. Working configurations (examples): {4,3,2,1,0},
-	 * {15,10,5,1,0}
+	 * {15,10,5,1,0} Remove values if your image has less than 5 colors.
+	 * If your image has only 2 colors, use something like {4,0}
 	 */
-	static int[] commitsForColor = { 4, 3, 2, 1, 0 };
+	static int[] commitsForColor = {4,3,2,1,0};
 
 	public static void main(String[] args) throws Exception {
 
