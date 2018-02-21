@@ -16,6 +16,3 @@ Generates a repository that shows an image in the GitHub contributions summary.
 1. Execute the main app.
 1. Push the repository to github
 
-## Similar Projects
-[gelstudios/gitfiti](https://github.com/gelstudios/gitfiti)
-[Hacking GitHub Contributions Calendar](http://bd808.com/blog/2013/04/17/hacking-github-contributions-graph/)
