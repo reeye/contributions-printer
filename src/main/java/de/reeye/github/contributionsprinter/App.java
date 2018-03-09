@@ -17,14 +17,14 @@ public class App {
 	 * Image to print. Must be 7 pixel high and have at most 5 differently
 	 * bright colors (hint: just use grey scale). See images for examples.
 	 **/
-	static File printImange = new File("images/snail.png");
+	static File printImange = new File("images/canvas.png");
 
 	/**
 	 * Use your user an email as configured in github, or else it will not appear.
 	 **/
 	static String user = "reeye";
 	static String email = "github@ch-schmid.de";
-	static File localRepoDirectory = new File("/home/reeze/contributions-printer/temp/");
+	static File localRepoDirectory = new File("temp/");
 
 	/**
 	 * Repository must exist and contain entries, so generate a new repo and
@@ -36,7 +36,7 @@ public class App {
 	 * Use exactly one year ago if you want the full 52 pixel width. Use today
 	 * if you want an image to appear like a really slow live ticker.
 	 */
-	static String startDateString = "2014-03-01";
+	static String startDateString = "2018-03-01";
 
 	/**
 	 * Commits used to produces colors. Example: {4,3,2,1,0} => 4 commits for

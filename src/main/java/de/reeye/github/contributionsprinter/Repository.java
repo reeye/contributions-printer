@@ -77,7 +77,7 @@ public class Repository {
 	 * @throws InterruptedException
 	 */
 	public void commit(Calendar c) throws IOException, InterruptedException {
-		String date = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z", Locale.ENGLISH).format(c.getTime());
+		String date = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH).format(c.getTime());
 		execute(new String[] { "git", "commit", "--date=\"" + date + "\"", "-m \"commit" + counter + "\"" });
 	}
 

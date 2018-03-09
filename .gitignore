@@ -1,5 +1,7 @@
 *.class
 
+contributionsprinter.iml
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
@@ -12,6 +14,10 @@
 hs_err_pid*
 /target/
 
-# Eclipse project files #
+# IntelliJ / Eclipse project files #
 .project
 .classpath
+.idea
+
+# output folder
+/temp
